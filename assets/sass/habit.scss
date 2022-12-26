@@ -1,6 +1,9 @@
 body {
-  background-color: darkcyan;
-  background-image: url("../../image2.jpg");
+  // background-color: darkcyan;
+  background-image: url("../image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 // Name of habit
 .heading-name {

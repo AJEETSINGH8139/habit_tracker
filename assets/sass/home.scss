@@ -1,6 +1,9 @@
 body {
   // background-color: darkcyan;
-  background-image: url(../css/image1.jpg);
+  background-image: url("../image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 // Styling Form

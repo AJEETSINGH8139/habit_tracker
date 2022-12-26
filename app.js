@@ -37,6 +37,17 @@ app.use(expressLayout);
 app.set("layout extractStyles", true);
 app.set("layout extractScripts", true);
 
+//------- Image --------//
+// app.get("/image1.jpg", function (req, res) {
+//   res.writeHead(200, { "Content-Type": "image/jpeg" });
+//   res.end("image1.jpg");
+// });
+
+// app.get("/image2.jpg", function (req, res) {
+//   res.writeHead(200, { "Content-Type": "image/jpeg" });
+//   res.end("image2.jpg");
+// });
+
 // ------Router------------//
 app.use("/", require("./routers/index"));
 
